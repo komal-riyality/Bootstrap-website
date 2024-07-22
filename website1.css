@@ -1,0 +1,103 @@
+  .box img{
+            overflow:scroll;
+            height: 230px;
+
+        }
+        .box1{
+            height: 230px;
+            width: 25%;
+            margin-top: 20px;
+            box-shadow: 0px 0px 20px 5px skyblue;
+            cursor: pointer;
+        }
+        .box1:hover{
+            width: 20%;
+            height: 440px;
+            margin-top:11px;
+            box-shadow: 0px 0px 40px -20px skyblue;
+            z-index: 100px;
+            cursor: pointer;
+        }
+
+        .box2{
+            height: 230px;
+            width: 25%;
+            margin-top: 20px;
+            box-shadow: 0px 0px 20px 5px skyblue;
+        }
+        .box2:hover{
+            width: 20%;
+            height: 440px;
+            margin-top:11px;
+            box-shadow: 0px 0px 40px -20px skyblue;
+            z-index: 100px;
+            cursor: pointer;
+        }
+
+
+        .video{
+            display: inline-block;
+            margin-top: 20px;
+         } 
+
+         .box3{
+            width: 300px;
+            box-align: center;
+            margin-left: 500px;
+            padding: 2px;
+         }
+
+         
+/*=================================== form css=======================================*/
+
+ {
+/*    font-family: Arrival, sans-serif;*/
+        }
+        .form-container {
+            max-width: 1000px;
+            max-height: 500px;
+            background-color: black;
+            padding: 5px 10px 10px 10px ;
+            margin-left:500px ;
+
+            border: 10px solid lightgreen;
+            border-radius: 1px;
+            margin: 0 auto;       
+        }
+
+        .form-group {
+            margin-bottom:-2px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 1px;
+        }
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 5px 0px 0px 10px;
+            box-sizing: border-box;
+        }
+        .form-group button {
+            padding: 5px 15px;
+            background-color: skyblue;
+            border: none;
+            color: black;
+            cursor: pointer;
+            border-radius: px;
+        }
+        .form-group button:hover {
+            background-color:seagreen;
+
+        
+        }
+
+        .header {
+            background-color:gray;
+            padding: 10px 0;
+            box-shadow:0 2px 4px 20px;
+
+}
+
+
